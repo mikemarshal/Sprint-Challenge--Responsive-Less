@@ -43,6 +43,9 @@ header {
 	display: flex;
 	flex-flow: wrap;
 	justify-content: space-evenly;
+	@media @tablet {
+		height: 900px;
+	}
 }
 
 .content {
@@ -52,7 +55,6 @@ header {
 		 background: @primary-color;
 		 color: white;
 		 margin-bottom: 20px;
-		 display: flex;
 		 .center-content;
 		 @media @tablet {
 			 width: 100%;

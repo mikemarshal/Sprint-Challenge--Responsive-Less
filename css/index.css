@@ -203,6 +203,11 @@ header nav {
   flex-flow: wrap;
   justify-content: space-evenly;
 }
+@media (max-width: 768px) {
+  .content {
+    height: 900px;
+  }
+}
 .content .boxes {
   width: 45%;
   height: 200px;
